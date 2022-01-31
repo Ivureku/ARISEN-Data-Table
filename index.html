@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div id="page" data-page="2">
+        <div class="form">
+            
+        <label>Name:</label>
+        <input type="text" id="name" autocomplete="off" placeholder="Enter Name" required>
+
+        <label>Gender:</label>
+        <input type="text" id="gender" placeholder="Enter Gender" required>
+
+        <label>Age:</label>
+        <input type="text" id="age" placeholder="Enter Age" required> 
+    </div>
+    <button type="button" id="add">Add User</button>
+
+    <div id="form">
+        <label>Delete User:</label>
+        <input type = "number" placeholder="No. Starting from 1" id="delete">
+    </div>
+    <button type="button" id="removeLine">Delete</button>
+        <div class="table" id="table" align="center">
+        </div>
+    </div>    
+<script src = "table.js"></script>
+    
+</body>
+</html>
